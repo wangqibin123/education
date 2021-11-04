@@ -23,6 +23,7 @@
             <div class="breadcrumb">
                 当前位置：首页>出国留学网
             </div>
+            <wwh></wwh>
         </div>
 
 
@@ -51,9 +52,12 @@
     </div>
 </template>
 <script>
+import wwh from "@/views/wwh.vue";
 
 export default {
-
+    components:{
+        wwh
+    }
 }
 </script>
 
@@ -67,10 +71,10 @@ export default {
 .warp{
     width: 100%;
     height: 100%;
-    // background: red;
     background-color: #F5F7F9;
 }
 .nav{
+    padding-bottom: .4rem;
     .header-1{
         width: 95%;
         margin: 0 auto;
