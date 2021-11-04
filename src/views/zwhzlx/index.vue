@@ -196,6 +196,8 @@
         width: 100%;
         height: auto;
         box-sizing: border-box;
+        margin-top: 0.5rem;
+        margin-bottom: .5rem;
     }
     .tab_header{
         width: 100%;
@@ -217,6 +219,7 @@
     .tab_content{
         width: 100%;
         height: 3rem;
+        background: white;
     }
     .new_list{
         width: 98%;

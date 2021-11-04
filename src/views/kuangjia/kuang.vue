@@ -24,6 +24,8 @@
                 当前位置：首页>出国留学网
             </div>
             <wwh></wwh>
+            <zwhz></zwhz>
+            <lxyr></lxyr>
             <zwh></zwh>
             <country  v-for="(item,index) in data" :key='index' :data='item'/>
         </div>
@@ -57,11 +59,15 @@
 import wwh from "@/views/wwh.vue";
 import zwh from "@/views/zwhzlx/index.vue";
 import country from '@/components/country.vue'
+import zwhz from '@/views/ply/zwhz.vue'
+import lxyr from '@/views/ply/lxyr.vue'
 export default {
     components:{
         wwh,
         zwh,
-        country
+        country,
+        zwhz,
+        lxyr,
     },
     data(){
         return {
