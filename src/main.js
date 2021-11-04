@@ -8,7 +8,7 @@ import store from './store'
 import "./assets/app"
 // 引入样式重置文件
 import "./assets/reset.css"
-
+import "./assets/app.js"
 Vue.config.productionTip = false
 
 new Vue({

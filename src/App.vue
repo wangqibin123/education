@@ -9,5 +9,7 @@
 </script>
 
 <style>
-
+body{
+  font-size: 16px;
+}
 </style>

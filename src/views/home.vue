@@ -1,15 +1,13 @@
 <template>
     <div>
-        啊哈哈哈哈
+        <zwh></zwh>
     </div>
 </template>
 <script>
-
-export default {
-
+import zwh from '@/views/zwhzlx/index.vue'
+export default{
+    components:{
+        zwh
+    }
 }
 </script>
-
-<style lang='scss' scoped>
-
-</style>
