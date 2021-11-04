@@ -139,18 +139,23 @@
                 </ul>
             </div>
         </div>
-        <div class="center-right" style="height:487px;">
-            
+        <div class="center-right" style="height:360px;">
+            <zwh></zwh>
         </div>
     </div>
   </div>
 </template>
 
-<script type="text/javascript">
- export default{
+<script>
+import zwh from "@/views/zwhzlx/index.vue";
+
+export default {
      props:['data'],
      mounted(){
          console.log(this.data);
+     },
+     components:{
+         zwh
      }
 }
 </script>

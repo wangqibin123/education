@@ -24,13 +24,8 @@
                 当前位置：首页>出国留学网
             </div>
             <wwh></wwh>
-            <zwh></zwh>
             <country  v-for="(item,index) in data" :key='index' :data='item'/>
         </div>
-
-
-
-
         <footer>
             <div>
                 <svg class="icon" aria-hidden="true">
@@ -54,13 +49,11 @@
     </div>
 </template>
 <script>
-import wwh from "@/views/wwh.vue";
-import zwh from "@/views/zwhzlx/index.vue";
+import wwh from "@/views/wwh/wwh.vue";
 import country from '@/components/country.vue'
 export default {
     components:{
         wwh,
-        zwh,
         country
     },
     data(){

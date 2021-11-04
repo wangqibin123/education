@@ -284,7 +284,39 @@
       </a>
     </div>
     <div class="rm">
-      <div class="content"></div>
+      <div class="rm-title">出国留学热门专题</div>
+      <div class="content">
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+        <div>
+          <img src="http://cg.yuloo.com/images/special2.jpg" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -530,17 +562,32 @@ export default {};
     }
   }
 }
-// .rm {
-//   width: 100%;
-//   height: 4.9rem;
-//   padding: 0.18rem 0;
-//   background: red;
-//   margin: 0 auto;
-//   .content {
-//     width: 3.28rem;
-//     height: 4.7rem;
-//     padding: 0.09rem;
-//     margin: 0 auto;
-//   }
-// }
+.rm {
+  width: 100%;
+  height: 4.9rem;
+  padding: 0.18rem 0;
+  background: #fff;
+  margin: 0 auto;
+  .rm-title{
+    text-align: center;
+    font-size: .25rem;
+    padding-bottom: .2rem;
+  }
+  .content {
+    width: 3.28rem;
+    padding: 0.09rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div{
+      width: 48%;
+      height: .75rem;
+      padding: .05rem 0;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
 </style>
