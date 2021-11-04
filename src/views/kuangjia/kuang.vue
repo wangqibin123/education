@@ -25,6 +25,7 @@
             </div>
             <wwh></wwh>
             <zwh></zwh>
+            <country  v-for="(item,index) in data" :key='index' :data='item'/>
         </div>
 
 
@@ -55,11 +56,51 @@
 <script>
 import wwh from "@/views/wwh.vue";
 import zwh from "@/views/zwhzlx/index.vue";
-
+import country from '@/components/country.vue'
 export default {
     components:{
         wwh,
-        zwh
+        zwh,
+        country
+    },
+    data(){
+        return {
+            data:[{
+                name:'美国',
+                icon:'#icon-meiguo',
+                background:'#f8fafb',
+                recommend:'美国留学院校推荐',
+                recommends:''
+            },
+            {
+                name:'英国',
+                icon:'#icon-yingguo',
+                background:'#f4f8fb',
+                recommend:'英国留学院校推荐',
+                recommends:''
+            },
+            {
+                name:'加拿大',
+                icon:'#icon-jianada',
+                background:'#f9f4f6',
+                recommend:'加拿大本硕留学院校推荐',
+                recommends:'加拿大中学推荐'
+            },
+            {
+                name:'澳大利亚',
+                icon:'#icon-aodaliya',
+                background:'#f8fafb',
+                recommend:'澳大利亚留学院校推荐',
+                recommends:''
+            },
+            {
+                name:'小语种',
+                icon:'',
+                background:'#f5f4f8',
+                recommend:'韩国预科留学院校推荐',
+                recommends:'韩国大学推荐'
+            }]
+        }
     }
 }
 </script>
