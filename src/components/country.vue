@@ -383,6 +383,10 @@ export default {
                 span{
                     height: 36px;
                     overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
                 }
             }
             .one:nth-of-type(2n){
