@@ -24,6 +24,7 @@
                 当前位置：首页>出国留学网
             </div>
             <wwh></wwh>
+            <zwh></zwh>
         </div>
 
 
@@ -53,10 +54,12 @@
 </template>
 <script>
 import wwh from "@/views/wwh.vue";
+import zwh from "@/views/zwhzlx/index.vue";
 
 export default {
     components:{
-        wwh
+        wwh,
+        zwh
     }
 }
 </script>
